@@ -12,4 +12,6 @@ h2 {
   justify-content: space-between;
   align-items: center;
   margin: 10px 30px 10px 30px;
+  padding: 0px 10px 0px 10px;
+  border-bottom: 1px solid rgba(17, 17, 17, 0.15);
 }
