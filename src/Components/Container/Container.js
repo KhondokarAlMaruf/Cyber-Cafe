@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./Container.css";
+import Programmers from "../Programmers/Programmer";
 
 const Container = () => {
   const [programmers, setProgrammers] = useState([]);
@@ -11,7 +12,12 @@ const Container = () => {
   return (
     <div className="body-container">
       <div className="programmers-container">
-        <h2>Programmers : {programmers.length}</h2>
+        {programmers.map((programmer) => (
+          <Programmers
+            key={programmer.id}
+            programmer={programmer}
+          ></Programmers>
+        ))}
       </div>
       <div className="bookmarks-container">
         <h2>Bookmarks summery</h2>

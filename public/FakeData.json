@@ -1,6 +1,6 @@
 [
   {
-    "_id": "1",
+    "id": "1",
     "img": "https://img.freepik.com/free-photo/3d-internet-secuirty-badge_1048-18106.jpg?w=740&t=st=1683741439~exp=1683742039~hmac=3d1d3a30d3190acc05a23bfc69ff9977273254997e079c02c68b96ec4925236b",
     "name": "Khondokar Al - Maruf",
     "description": "How to get your first job as a self-taught programmer",
@@ -8,7 +8,7 @@
   
   },
   {
-    "_id": "2",
+    "id": "2",
     "img": "https://img.freepik.com/free-photo/standard-quality-control-collage-concept_23-2149595831.jpg?w=740&t=st=1683741792~exp=1683742392~hmac=5008143ef4f47b95b01d08bc5fb566f10c3a93ed762d44077eccfdbb6ff3520b",
     "name": "Neasher Ahmmed",
     "description": "How to get your first job as a self-taught programmer",
@@ -16,7 +16,7 @@
     
   },
   {
-    "_id": "3",
+    "id": "3",
     "img": "https://img.freepik.com/free-photo/man-using-digital-tablet-psd-mockup-smart-technology_53876-110815.jpg?t=st=1683741903~exp=1683742503~hmac=52ca6a17544c90c3cb1b661b40e60ba9f69492bbc130b2991e908156b659c32a",
     "name": "Hasib Prangon",
     "description": "How to get your first job as a self-taught programmer",
@@ -24,7 +24,7 @@
    
   },
   {
-    "_id": "4",
+    "id": "4",
     "img": "https://img.freepik.com/free-vector/isometric-data-security-background_52683-1095.jpg?w=740&t=st=1683741958~exp=1683742558~hmac=b5fd2f1cfa9a846d29ce2bbb8f305932c4046bd0fddf5c9ed948b021eaef6260",
     "name": "Rifat Hossain",
     "description": "How to get your first job as a self-taught programmer",
