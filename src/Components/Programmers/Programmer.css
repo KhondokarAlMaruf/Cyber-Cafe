@@ -1,0 +1,22 @@
+.cover {
+  width: 845px;
+  height: 450px;
+  border-radius: 8px;
+}
+.progmmer h2 {
+  font-weight: 700;
+  font-size: 30px;
+}
+a {
+  font-weight: 600;
+  font-size: 20px;
+  color: #6047ec;
+}
+.icon-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 25px;
+}
+.icon {
+  margin-top: 5px;
+}
