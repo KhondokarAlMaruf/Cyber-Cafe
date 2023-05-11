@@ -2,8 +2,9 @@ import React from "react";
 import "./Programmer.css";
 
 const Programmer = (props) => {
-  console.log(props);
-  const { id, img, name, description, date, icon } = props.programmer;
+  const { id, img, name, title, date, icon, time } = props.programmer;
+  const handleButton = props.handleButton;
+
   return (
     <div className="progmmer">
       <img className="cover" src={img} alt="" />
@@ -17,11 +18,12 @@ const Programmer = (props) => {
         </div>
         <div>
           <p>
-            05 min read <button>!</button>
+            {time}{" "}
+            <button onClick={() => handleButton(props.programmer)}>!</button>
           </p>
         </div>
       </div>
-      <h2>{description}</h2>
+      <h2>{title}</h2>
       <a href="">Mark as read</a>
     </div>
   );
