@@ -4,6 +4,7 @@ import "./Programmer.css";
 const Programmer = (props) => {
   const { id, img, name, title, date, icon, time } = props.programmer;
   const handleButton = props.handleButton;
+  const handleButtonMarkRead = props.handleButtonMarkRead;
 
   return (
     <div className="progmmer">
@@ -18,13 +19,15 @@ const Programmer = (props) => {
         </div>
         <div>
           <p>
-            {time}{" "}
+            {time} min read
             <button onClick={() => handleButton(props.programmer)}>!</button>
           </p>
         </div>
       </div>
       <h2>{title}</h2>
-      <a href="">Mark as read</a>
+      <button onClick={() => handleButtonMarkRead(props.programmer)}>
+        Mark as read
+      </button>
     </div>
   );
 };
