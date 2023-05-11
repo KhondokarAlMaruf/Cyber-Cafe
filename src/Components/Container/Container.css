@@ -3,3 +3,20 @@
   grid-template-columns: 4fr 1fr;
   margin: 10px 30px 10px 30px;
 }
+.time {
+  color: #6047ec;
+  font-weight: 700;
+  font-size: 24px;
+  border: 2px solid #6047ec;
+  padding: 5px;
+}
+.bookmark {
+  border: 2px solid #6047ec;
+  padding: 5px;
+  font-weight: 600;
+  font-size: 18px;
+}
+.bookmark h4 {
+  font-weight: 700;
+  font-size: 24px;
+}

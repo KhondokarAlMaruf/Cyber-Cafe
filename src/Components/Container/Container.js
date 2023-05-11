@@ -48,11 +48,13 @@ const Container = () => {
         ))}
       </div>
       <div className="bookmarks-container">
-        <h4>Bookmarked Blogs: {bookmark.length}</h4>
-        {bookmark.map((b) => (
-          <p>{b.title}</p>
-        ))}
-        <p>totat time spent : {totalTime}</p>
+        <p className="time">Spent time on read : {totalTime}</p>
+        <div className="bookmark">
+          <h4>Bookmarked Blogs: {bookmark.length}</h4>
+          {bookmark.map((b) => (
+            <p>{b.title}</p>
+          ))}
+        </div>
       </div>
     </div>
   );
